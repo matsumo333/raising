@@ -1,0 +1,19 @@
+header{
+    color:rgb(20, 3, 106);
+    background-color: rgb(8, 167, 80);
+    height: 90px;}
+
+.header-logo{
+   padding-left:100px;
+   float:left;
+   padding-left:20px;
+   padding-top:15px;
+}
+
+li {
+    list-style: none;
+    float:right;
+    padding:33px 20px;
+    color: white;
+  }
+  

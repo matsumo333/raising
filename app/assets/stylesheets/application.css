@@ -1,0 +1,62 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require simple_calendar
+ *= require_tree .
+ *= require_self
+
+ */
+ .simple-calendar{
+    color:rgb(14, 135, 10);
+    background-color: rgb(246, 253, 244);
+    font-size:20px;
+}
+ .calendar-heading{
+    height: 30px;
+    font-size:20px;}
+
+ .calendar-title{
+    color:white;
+    
+}
+
+.table table-striped{
+    
+    text-align:center;
+}
+
+
+.table table-striped thead{
+    font-size: 100px;
+    text-align:center;
+}
+
+
+
+.calendar-title{
+    color:rgb(12, 135, 64);
+    font-size: 30px;
+    float:left;
+    line-height:1px;
+}
+
+.tameshi{
+    color:rgb(249, 251, 250);
+    font-size: 30px;
+    background-color: rgb(12, 135, 64);
+    text-align:center;
+}
+
+.cale-title{
+    color:rgb(233, 18, 18);
+    font-size: 10px;
+}

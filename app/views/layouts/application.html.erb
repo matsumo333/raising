@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dash</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <body>
+   <header>
+     <div class="header-logo">
+      <img src="http://raising.boo.jp/title-logo.png">
+     </div>
+       <ul>
+        <li>参加表明</li>
+        <li>会員募集</li>
+        <li>関係リンクなんで</li>
+        <li>
+          <%= link_to("ユーザー一覧", "/users/index") %>
+        </li>
+       </ul>
+</header>
+    <%= yield %>
+  </body>
+</html>
