@@ -10,7 +10,11 @@ gem "rails", "~> 7.0.3", ">= 7.0.3.1"
 gem "sprockets-rails"
 
 # Use sqlite3 as the database for Active Record
-gem "sqlite3", "~> 1.4"
+#gem "sqlite3", "~> 1.4"
+
+group :development, :test do
+  gem 'sqlite3' #do ~ end内部に追加。他のgemは残してください。
+end
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
@@ -75,3 +79,7 @@ gem "sassc-rails"
 gem 'rails-i18n', '~> 7.0', '>= 7.0.5'
 
 gem "webpacker"
+
+group :production do
+  gem 'pg'
+end
